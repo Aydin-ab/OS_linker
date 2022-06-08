@@ -1,7 +1,11 @@
 # OS linker
 Homework for OS course at NYU. Basic linker to replicate OS behavior in C++
 
-
+## HOW TO USE
+Compile the code with the make command
+Execute the program with linker input_file. The output goes to the standard output
+Given a list of input files, you can use the runit.sh script to run the program on each of them and put the outputs in a output directory. Use the runit.sh script inside the input directory like that : runit.sh <your_output_dir> linker
+ 
 This is a two-pass linker. In general, a linker takes individually compiled code/object modules and creates a single executable by resolving external symbol references (e.g. variables and functions) and module relative addressing by assigning global addresses after placing the modules’ object code at global addresses.
 
 Rather than dealing with complex x86 tool chains, we assume a target machine with the following properties: (a) word addressable, (b) addressable memory of 512 words, and (c) each valid word is represented by an integer (<10000).
