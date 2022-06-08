@@ -1,6 +1,7 @@
 # OS linker
 Homework for OS course at NYU. Basic linker to replicate OS behavior in C++
-Grade : 100/100
+
+**Grade : 100/100**
 
 ## HOW TO USE
 Compile the code with the ```make``` command
